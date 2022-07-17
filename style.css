@@ -140,8 +140,65 @@ section{
     border: #FF4081;
     margin-left: 50px;
 }
- .ilustracao{
+.ilustracao{
     
     padding-left: 120px;
-    
- }
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  align-content: space-between;
+  padding: 20px 103px 26px 82px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.listarodape > ul > li{
+
+  padding: 0px 10px;
+
+  font-style: normal;
+  text-decoration: none;
+  list-style: none;
+  color: #FDFDFD;
+  font-size: 20px;
+}
+#profbutton{
+    background-color:#2E948A;
+    border-radius: 50px;
+    color: white;
+    width: 108px;
+    height: 32px;
+    border-color: white;
+    margin-left: 50px;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#otherbutton{
+    background-color:#2E948A;
+    border-radius: 50px;
+    color: white;
+    width: 108px;
+    height: 32px;
+    border-color: white;
+    margin-left: 50px;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.misericordia{
+  justify-content: space-between;
+}
+@media screen and (max-width: 660px) {
+  .misericordia {
+    padding: 20px 36px 26px 50px;
+    flex-direction: column;
+  }
+}
+
+
+
