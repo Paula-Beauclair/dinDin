@@ -1,0 +1,147 @@
+html,
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 103px 26px 82px;
+  background: #2E948A;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+
+.header > .nav {
+  display: flex;
+  list-style: none;
+
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+}
+
+.header > .nav > li {
+  padding: 0px 10px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 23px;
+
+  text-transform: uppercase;
+
+  color: #FDFDFD;
+}
+
+a:link {
+  text-decoration: none;
+  color: #FDFDFD;
+}
+
+@media screen and (max-width: 660px) {
+  .header {
+    padding: 20px 36px 26px 50px;
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .header {
+    padding: 20px 20px 26px 20px;
+    flex-direction: column;
+  }
+
+  .header > .nav {
+    flex-direction: column;
+  }
+
+  .header > .nav > li {
+    padding: 5px 0px;
+  }
+}
+section{
+    display: flex;
+}
+
+    h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FF4081;
+    left: 0%;
+    right: 68.95%;
+    top: 0%;
+    bottom: 89.02%;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+#nome{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 493px;
+    height: 32px;
+    margin-left: 50px;
+    padding-left: 15px;
+
+    
+    left: 0.6%;
+    right: 0%;
+    top: 21.48%;
+    bottom: 70.88%;
+
+}
+#email{
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+    box-sizing: border-box;
+    width: 493px; /*mexi na largura do botao */
+    height: 32px; /*mexi na altura do botao */
+    margin-left: 50px; /* afastou por fora do botao */
+    padding-left: 15px; /* aafastou dentro do botao */
+
+    
+    left: 0.6%;
+    right: 0%;
+    top: 32.7%;
+    bottom: 59.67%;
+
+}
+#mensagem{
+    box-sizing: border-box;
+    width: 493px;
+    height: 193px;
+    margin-left: 50px;
+    padding-left: 15px;
+
+    left: 0.6%;
+    right: 0%;
+    top: 43.68%;
+    bottom: 10.26%;
+
+    background: #FFFFFF;
+    border: 1px solid #686868;
+    border-radius: 7px;
+}
+
+#botao{
+    background-color: #FF4081;
+    border-radius: 50px;
+    color: white;
+    width: 108px;
+    height: 32px;
+    border: #FF4081;
+    margin-left: 50px;
+}
+ .ilustracao{
+    
+    padding-left: 120px;
+    
+ }
