@@ -109,3 +109,10 @@ a:link {
       flex-direction: column;
     }
   }
+
+  h1{
+    color: #FF4081;
+    font-weight: 700;
+    font-size: 40px;
+    margin-left: 50px;
+  }
