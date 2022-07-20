@@ -159,5 +159,19 @@ font-size: 17px;
     padding-top: 4%;
     padding-bottom: 9%;
     align-content: center;
+    cursor: pointer;
 
+}
+
+h2{
+    font-weight: 700;
+    font-size: 37px;
+    color:#009688 ;
+    font-family: 'Nunito', sans-serif;
+
+}
+.intemediario{
+    margin-left: 40px;
+    margin-right: 60px;
+    display: flex;
 }
