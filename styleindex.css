@@ -72,6 +72,7 @@ footer{
       height: 51px;
       font-size: 20px;
       font-weight: 400;
+      cursor: pointer;
   }
   #otherbutton{
       background-color:#2E948A;
@@ -85,6 +86,7 @@ footer{
       height: 51px;
       font-size: 20px;
       font-weight: 400;
+      cursor: pointer;
   }
   .misericordia{
     justify-content: space-between;
@@ -168,10 +170,67 @@ h2{
     font-size: 37px;
     color:#009688 ;
     font-family: 'Nunito', sans-serif;
+    font-weight: 300;
 
 }
 .intemediario{
     margin-left: 40px;
     margin-right: 60px;
+    display: flex;
+}
+.img4{
+    display: flex;
+}
+.penultimobloco{
+    display: flex;
+    justify-content: space-around;
+}
+.terceirobloco{
+    margin-left: 40px;
+    margin-right: 60px;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+
+}
+.quartobloco{
+    margin-left: 40px;
+    margin-right: 60px;
+    display: block;
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+}
+.lastblock{
+    display: flex;
+    margin-left: 40px;
+    margin-right: 60px;
+    justify-content:space-between;
+}
+.ultsubtitulo{
+    color: #009688;
+    font-weight: 700;
+    font-size: 27px;
+}
+.ultextinho{
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000 ;
+}
+#infobutton1{
+    margin-left: 120px;
+    border-radius: 20px;
+    padding: 5px 10px 10px 10px;
+    border:#FF4081;
+    border: solid 2px;
+    background-color: white;
+    color: #FF4081;
+    cursor: pointer;
+    font-size: 27px;
+    
+}
+.ultimobotao{
+    align-items: center;
+    justify-content: center;
+    justify-content: center;
     display: flex;
 }
