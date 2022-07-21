@@ -13,6 +13,28 @@ body {
   background: #2E948A;
   box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
 }
+/*responsividade no header*/
+@media screen and (max-width: 660px) {
+  .header {
+    padding: 20px 36px 26px 50px;
+  }
+}
+
+@media only screen and (max-width: 904px) {
+  .header {
+    padding: 20px 20px 26px 20px;
+    flex-direction: column;
+  }
+
+  .header > .nav {
+    flex-direction: column;
+  }
+
+  .header > .nav > li {
+    padding: 5px 0px;
+  }
+}
+  
 
 @media only screen and (max-width: 880px){
   .header{
@@ -60,7 +82,8 @@ footer{
     background: #2E948A;
     box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
   }
-  
+
+ 
   .listarodape > ul > li{
   
     padding: 0px 10px;
@@ -99,9 +122,16 @@ footer{
       font-weight: 400;
       cursor: pointer;
   }
-  .misericordia{
+  .footer{
     justify-content: space-between;
   }
+  @media only screen and (max-width: 904px) {
+    .footer {
+      padding: 20px 36px 26px 50px;
+      flex-direction: column;
+    }
+  }
+
  
   .titulo{
     margin-left: 40px;
