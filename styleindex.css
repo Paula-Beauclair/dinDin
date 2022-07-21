@@ -41,6 +41,9 @@ a:link {
   text-decoration: none;
   color: #FDFDFD;
 }
+
+  
+
 footer{
     display: flex;
     align-items: center;
@@ -93,26 +96,39 @@ footer{
   }
   .primeirobloco{
     display:flex;
-    margin-left: 40px;
-    margin-right: 60px;
+    justify-content: space-evenly;
+     padding: 0px 300px; 
+    /* margin-left: 40px;
+    margin-right: 60px; */
+  }
+  @media only screen and (max-width: 1620px){
+    .primeirobloco {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
   }
 
   h1{
     font-size: 60px;
     line-height: 69px;
-    padding-left: 120px;
-    padding-top: 80px;
+    /* padding-left: 120px;
+    padding-top: 80px; */
     color: #FF4081;
   }
+  .inicio{
+    width: 400px;
+  }
   .inicial{
-    padding-left: 120px;
-    padding-top: 0px;
+    /* padding-left: 120px;
+    padding-top: 0px; */
     font-weight: 400;
     font-size: 27px;
     color: #555555;
   }
   #infobutton{
-    margin-left: 120px;
+    /* margin-left: 120px; */
     border-radius: 20px;
     padding: 5px 10px 10px 10px;
     border:#FF4081;
@@ -132,10 +148,22 @@ footer{
   }
   .segundobloco{
     display: flex;
-    margin-left: 40px;
-    margin-right: 60px;
+    /* margin-left: 40px;
+    margin-right: 60px; */
     margin-top: 120px;
-    justify-content: space-between;
+    justify-content: space-evenly;
+
+
+  }
+
+  @media only screen and (max-width: 1050px){
+    .segundobloco {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+
+    }
   }
   .minititulo{
     color: #FF4081;
@@ -155,11 +183,11 @@ font-size: 17px;
     width: 108px;
     height: 32px;
     border: #FF4081;
-    margin-left: 50px;
+    /* margin-left: 50px;
     padding-left: 10%;
     padding-right: 42%;
     padding-top: 4%;
-    padding-bottom: 9%;
+    padding-bottom: 9%; */
     align-content: center;
     cursor: pointer;
 
@@ -206,6 +234,22 @@ h2{
     margin-right: 60px;
     justify-content:space-between;
 }
+@media only screen and (max-width: 1100px) {
+  .lastblock {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+  .intemediario {
+    text-align: center;
+    justify-content: center;
+  }
+  #infobutton1{
+    justify-content: center;
+    text-align: center;
+  }
+
+}
 .ultsubtitulo{
     color: #009688;
     font-weight: 700;
@@ -217,7 +261,7 @@ h2{
     color: #000000 ;
 }
 #infobutton1{
-    margin-left: 120px;
+    /* margin-left: 120px; */
     border-radius: 20px;
     padding: 5px 10px 10px 10px;
     border:#FF4081;
