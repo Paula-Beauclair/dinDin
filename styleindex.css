@@ -91,24 +91,24 @@ footer{
       font-weight: 400;
       cursor: pointer;
   }
-  .misericordia{
+  .footer{
     justify-content: space-between;
   }
   .primeirobloco{
     display:flex;
     justify-content: space-evenly;
      padding: 0px 300px; 
-    /* margin-left: 40px;
-    margin-right: 60px; */
+     margin-left: 40px;
+    margin-right: 60px; 
   }
-  @media only screen and (max-width: 1620px){
+   @media only screen and (max-width: 1220px){
     .primeirobloco {
       flex-direction: column;
       justify-content: center;
       align-items: center;
       text-align: center;
     }
-  }
+  } 
 
   h1{
     font-size: 60px;
