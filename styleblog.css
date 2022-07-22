@@ -122,3 +122,53 @@ footer{
       flex-direction: column;
     }
   }
+
+  /*iniciando o css do main*/
+  main{
+    margin-left: 40px;
+    margin-top: 60px;
+  }
+  .primeiroflex{
+    display: flex;
+    justify-content: center;
+    
+  }
+h1{
+   color:  #009688;
+   width: 512px;
+   font-size: 47px;
+   font-weight: 700;
+}
+p{
+    font-size: 20px;
+    color: black;
+}
+h4{
+    font-size: 30px;
+    color: #FF4081;
+    }
+ span{
+    font-size: 17px;
+    align-items: center;
+ }
+ .segundoflex{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 40px;
+ }
+ @media only screen and (max-width: 1220px){
+    
+    .primeiroflex {
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    .segundoflex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        
+      }
+  } 
