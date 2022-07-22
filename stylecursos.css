@@ -132,7 +132,7 @@ footer{
     }
   }
 
- 
+ /*saindo do footer e do header*/
   .titulo{
     margin-left: 40px;
     margin-right: 60px;
@@ -154,10 +154,12 @@ footer{
     margin-bottom: 70px;
     margin-top: 70px;
   }
+  
   .segundadivisao{
     display: flex;
     margin-bottom: 70px;
     margin-top: 70px;
+    
 
   }
   .terceiradivisao{
@@ -169,6 +171,9 @@ footer{
   .independencia{
     margin-left: 40px;
     margin-right: 60px;
+  }
+  p{
+    max-width:max-content;
   }
   #button-second{
   background-color: #419488;
